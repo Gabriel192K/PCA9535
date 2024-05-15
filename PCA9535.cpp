@@ -96,8 +96,8 @@ const uint8_t PCA9535::setMode(const uint8_t bit, const uint8_t mode)
 }
 
 /*!
- * @brief  Reading entire PCF9535 input registers
- * @return Returns entire PCF9535 input registers
+ * @brief  Reading entire PCA9535 input registers
+ * @return Returns entire PCA9535 input registers
  *         (returns the actual physical bits state !!! NOT THE ONES FROM THE FLIP FLOP ON OUTPUT DRIVER !!!)
  *         (only valid if bits were configured as inputs)
  */
@@ -113,8 +113,8 @@ const uint16_t PCA9535::read(void)
 }
 
 /*!
- * @brief  Reading one bit from PCF9535 input register
- * @return Returns one bit from PCF9535 input register
+ * @brief  Reading one bit from PCA9535 input register
+ * @return Returns one bit from PCA9535 input register
  *         (returns the actual physical bit state !!! NOT THE ONE FROM THE FLIP FLOP ON OUTPUT DRIVER !!!)
  *         (only valid if bit was configured as input)
  */
